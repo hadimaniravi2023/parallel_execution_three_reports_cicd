@@ -6,11 +6,7 @@ Feature: User Login Functionality
     And Click on the Login button
     Then the user should be redirected to the products dashboard
 
-  Scenario: Successful login with valid credentials
-    Given I launch the URL "https://www.saucedemo.com/"
-    And User enters the valid username "standard_user" and Password "secret_sauce"
-    And Click on the Login button
-    Then the user should be redirected to the products dashboard
+
 
   Scenario: Successful login with valid credentials
     Given I launch the URL "https://www.saucedemo.com/"
